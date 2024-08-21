@@ -2,7 +2,8 @@
 
 ## Project Visual
 
-*(Include a screenshot or visual representation of your project here)*
+
+![Traffic Insurance System Visual](https://github.com/emreerdin/TrafficInsuranceScroll/blob/main/4322a190-3b93-42ee-a171-7797d17e8fed.webp)
 
 ## About Me
 
