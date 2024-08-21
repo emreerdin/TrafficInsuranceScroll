@@ -2,7 +2,6 @@
 
 ## Project Visual
 
-
 ![Traffic Insurance System Visual](https://github.com/emreerdin/TrafficInsuranceScroll/blob/main/4322a190-3b93-42ee-a171-7797d17e8fed.webp)
 
 ## About Me
@@ -91,6 +90,32 @@ Before you begin, ensure you have met the following requirements:
 5. **Configure the Flask app:**
 
     No additional configuration is required if you are using the Scroll Sepolia RPC URL and the smart contract address provided. If you're using a different RPC URL or contract address, update the corresponding variables in the code.
+
+## Deploying the Solidity Contract using Remix
+
+To deploy your Solidity contract on the Scroll Sepolia Testnet using Remix, follow these steps:
+
+1. **Open Remix IDE:**
+   - Go to [Remix IDE](https://remix.ethereum.org/) in your web browser.
+
+2. **Create a New File:**
+   - In the Remix file explorer, create a new file under the `contracts` directory, for example `MyContract.sol`.
+
+3. **Paste Your Solidity Code:**
+   - Copy the Solidity code you wrote in Remix and paste it into this new file.
+
+4. **Compile the Contract:**
+   - Click on the "Solidity Compiler" tab in Remix and compile your contract by selecting the correct compiler version (e.g., `0.8.20`).
+
+5. **Deploy the Contract:**
+   - Go to the "Deploy & Run Transactions" tab in Remix.
+   - Select the appropriate environment (e.g., "Injected Web3" for Metamask).
+   - Connect your Metamask wallet to the Scroll Sepolia Testnet.
+   - Select your contract and click "Deploy".
+   - Confirm the transaction in Metamask.
+
+6. **Verify Deployment:**
+   - After deployment, you'll see the contract address in Remix. You can interact with the deployed contract from the Remix interface or via your Flask API.
 
 ## Running the API
 
