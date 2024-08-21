@@ -18,7 +18,7 @@ else:
     print("Failed to connect")
 
 # Contract address and ABI
-contract_address = web3.to_checksum_address('0xB615DD2d60838b2Cd7Cc5Fb492ddE643FaD01541')
+contract_address = web3.to_checksum_address('YOUR CONTRACT ADDRESS')
 with open('contract_abi.json') as f:
     contract_abi = json.load(f)
 
